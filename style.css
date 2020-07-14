@@ -1,0 +1,220 @@
+<link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
+body {
+ position: absolute
+}
+.container{
+  margin: 0;
+  position: absolute;
+  max-width: 100%;
+  left: 0px;
+  margin-top: 1.4em;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  background: 	#F0F8FF;
+  justify-content: space-around;
+  align-items: center;
+  height: 4em;
+  z-index: 2;
+}
+.img-logo {
+  height: 8em;
+  
+}
+.li {
+  display: inline;
+  
+}
+a {
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+  
+}
+a:hover {
+  border-top: 2px solid;
+  border-color: #483D8B;
+  color: #483D8B;
+}
+
+.sec1-container { 
+  background: url(https://thumbs.dreamstime.com/b/happy-man-holding-colorful-shopping-bag-outdoors-shopaholic-male-walking-city-cheerful-shopper-enjoy-buying-city-consumerism-109241159.jpg);
+  opacity: 0.6;
+  background-size: 100% 100%;
+  
+}  
+
+section {
+  text-align: center;
+  height: 30em; 
+  font-family: 'Amaranth',sans-serif;
+}
+
+h1 {
+  padding: 30px; 
+  font-size: 30px;  
+}
+
+.sec2-container {
+  display: flex;
+  justify-content: center;
+  background: #666666;
+  width: 100%;
+  align-items: center;
+  
+}
+
+#img-style {
+  height: 5em;
+  border-radius: 50%;
+  border: 1px solid;
+  margin-top: 5px;
+  
+}
+figcaption {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-shadow: 3px 2px gray;
+  font-weight: bold;
+}
+
+.p-style {
+  line-height: 25px;
+  font-size: 15px;
+  text-align: left;
+  margin: 0px 20px;
+  word-spacing: 5px;
+  font-style: italic;
+  
+}
+
+
+.sec3-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f0f5f5;
+  height: auto;
+  padding: 0px 10px;
+}
+iframe {
+  height: 340px;
+  max-width : 500px;
+  width: 100%;
+  margin: 10px auto;
+}
+#pricing {
+  background: #f5f5dc;
+  display: flex;
+  flex-direction: row;
+  justfiy-content: center;
+  align-items: center;
+}
+.sec4-container {
+  margin: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  width: calc(100%/3);
+   
+}
+.up {
+  text-transform: uppercase;
+  color: white;
+  width: 100%;
+  font-weight: 20px;
+  background: gray;
+  padding: 15px 0;
+}
+.sec4-container > ol > li {
+  padding: 10px;
+  list-style-type: none;
+  
+}
+button {
+  background: yellow;
+  margin: 15px;
+  padding: 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+  border: 1px solid black;
+}
+#inscription {
+  height: 150px;
+  display: flex;
+  background: #bfbfbf;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+input {
+  margin: 10px;
+  padding: 07px;
+  width: 200px;
+}
+@media (max-width: 700px) {
+  
+  .sec2-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    
+  }
+  
+  .p-style {
+    text-align: center;
+    margin-top: 10px; 
+  }
+  header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    height: auto;
+  }
+  .a-header {
+    display : block;
+  }
+  .img-logo {
+    height: 3em; 
+  }
+  .container {
+    margin-top: 14.4em;
+  }  
+  .sec3-container {
+    height: auto;
+  }
+  #pricing {
+    flex-direction: column;
+    height: auto;
+  }
+  .sec4-container{
+    max-width: 300px;
+    width: 100%;
+    margin: 20px;
+  }
+}
+footer {
+  background: #e0ebeb;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; 
+  height: 100px
+}
+footer > ul > li {
+  display: inline;
+  padding: 20px;
+}
+span {
+ margin: 0px 40px;
+  color: gray;
+}
